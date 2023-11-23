@@ -12,9 +12,7 @@ router.get('/home', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   res.render('index', { title: 'About Us' });
 });
-router.get('/mission', function(req, res, next) {
-  res.render('index', { title: 'Our Mission' });
-});
+
 router.get('/login', function(req, res, next) {
   res.render('index', { title: 'Join Us' });
 });
